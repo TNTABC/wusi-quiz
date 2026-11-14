@@ -1447,6 +1447,14 @@ html.desktop-start body {
   line-height: 1.8;
 }
 
+.home-foot .foot-disclaimer {
+  display: inline-block;
+  margin-top: 3px;
+  color: var(--gold-strong);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
 .home-foot > span {
   margin-left: auto;
   color: var(--muted);
@@ -3870,6 +3878,7 @@ body.modal-open {
 </style>
       <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -6849,7 +6858,7 @@ window.QUIZ_DATA = {
 
       <footer class="home-foot">
         <img src="${asset("emblem")}" alt="" />
-        <p>题库依据《五四共青团》入团宣传教育课件与《内容梳理与考点》整理。课件与现行《团章》表述不一致处，已在题目解析中注明；答题时请以题目给出的口径为准。</p>
+        <p>题库依据《五四共青团》入团宣传教育课件与《内容梳理与考点》整理。课件与现行《团章》表述不一致处，已在题目解析中注明；答题时请以题目给出的口径为准。<br /><span class="foot-disclaimer">非官方学习工具，仅供学习交流；资料版权归原作者/原单位所有。</span></p>
         <span>离线可用 · 记录保存在本机浏览器</span>
       </footer>
     `;

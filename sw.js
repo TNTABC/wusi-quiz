@@ -1,5 +1,5 @@
 /* 五四共青团刷题 PWA — offline cache */
-const CACHE_VERSION = "b0221f57cfbd";
+const CACHE_VERSION = "a45f6be06569";
 const CACHE_NAME = `wusi-quiz-${CACHE_VERSION}`;
 const APP_SHELL = [
   "./index.html",
